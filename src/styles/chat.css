@@ -1,0 +1,43 @@
+.chatSection{ 
+    height: 510.712px;;
+}
+
+.chat-design{
+    max-width: 50rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.self{
+    border-bottom-right-radius: 1rem;
+    background-color: #2A0944;
+}
+
+.other{
+    border-bottom-left-radius: 1rem;background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.25),
+        rgba(255, 255, 255, 0.15)
+    );
+}
+
+.writerUser{
+    font-size: 0.7rem;
+}
+
+.chatTime{
+    font-size: 0.7rem;
+}
+.chatText{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.text-darkux{
+    color: rgba(0,0,0,0.6) !important;
+}
+
+input::placeholder{
+    color: rgba(255,255,255,0.4) !important;
+    font-family: 'Montserrat', sans-serif;
+}
